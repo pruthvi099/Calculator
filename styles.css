@@ -57,3 +57,12 @@ body {
 .calculator span.equal {
     background: rgb(13, 187, 255);
 }
+
+@viewport {
+    zoom: 1;
+    width: extend-to-zoom;
+}
+
+@-ms-viewport {
+    width: extend-to-zoom;
+}
